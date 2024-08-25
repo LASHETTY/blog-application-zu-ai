@@ -1,12 +1,13 @@
-// src/components/Footer.js
-import React from 'react';
+import React from "react";
 
 function Footer() {
-    return (
-        <footer>
-            <p>&copy; 2024 My Blog</p>
-        </footer>
-    );
+  return (
+    <footer className="app-footer">
+      <div className="footer-container">
+        <p>&copy; 2024 ZuAI Blog. All rights reserved.</p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
